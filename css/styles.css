@@ -1,0 +1,59 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for header and footer */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Styling for navigation bar */
+nav ul {
+    list-style-type: none;
+    display: flex; /* Use flexbox to align items horizontally */
+}
+
+nav ul li {
+    margin-right: 10px; /* Decrease margin for smaller spacing */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 14px; /* Adjust padding for smaller navigation links */
+    margin: 0; /* Remove margin */
+    display: block; /* Ensure each link takes up the full width of its container */
+}
+
+nav ul li a.active {
+    background-color: #555; /* Add background color for active link */
+    color: #fff; /* Change text color for active link */
+    padding: 8px 10px; /* Adjust padding for smaller active link */
+}
+
+/* Ensure straight alignment of text */
+nav ul li {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 60px; /* Adjust margin to make space for the footer */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add additional styling as needed */
